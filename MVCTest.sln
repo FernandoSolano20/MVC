@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POJOS", "POJOS\POJOS.csproj", "{EDA5ADAB-F9FD-490E-836F-76F4BBD83C0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_UI", "MVC_UI\MVC_UI.csproj", "{A21F4CC9-D331-495A-9219-CA97E8353DBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EDA5ADAB-F9FD-490E-836F-76F4BBD83C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDA5ADAB-F9FD-490E-836F-76F4BBD83C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDA5ADAB-F9FD-490E-836F-76F4BBD83C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21F4CC9-D331-495A-9219-CA97E8353DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21F4CC9-D331-495A-9219-CA97E8353DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21F4CC9-D331-495A-9219-CA97E8353DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21F4CC9-D331-495A-9219-CA97E8353DBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
