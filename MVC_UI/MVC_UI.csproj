@@ -132,7 +132,11 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Read.css" />
+    <Content Include="Content\Scripts\CreateController.js" />
+    <Content Include="Content\Scripts\DeleteController.js" />
+    <Content Include="Content\Scripts\ReadController.js" />
+    <Content Include="Content\Scripts\UpdateController.js" />
+    <Content Include="Content\Style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -166,6 +170,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Client\CreateClient.cshtml" />
     <Content Include="Views\Client\ReadClient.cshtml" />
+    <Content Include="Views\Client\DeleteClient.cshtml" />
+    <Content Include="Views\Client\UpdateClient.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

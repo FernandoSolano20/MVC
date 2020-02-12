@@ -18,5 +18,15 @@ namespace MVC_UI.Controllers
         {
             return View();
         }
+
+        public ActionResult UpdateClient()
+        {
+            return View();
+        }
+
+        public ActionResult DeleteClient()
+        {
+            return View();
+        }
     }
 }
