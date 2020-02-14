@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Delete Client";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-offset-4">
+
+            <h2 class="title-padding">Delete Client</h2>
+
+            <div class="card card-body">
+                <form>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input id="txt_name" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary btn-lg" id="btn_action">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    @Scripts.Render("~/Content/Scripts/DeleteController.js");
+}
+
+
+
